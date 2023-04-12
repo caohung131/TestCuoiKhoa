@@ -1,0 +1,158 @@
+#page {
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    color: #151B32    ;
+}
+
+
+.left-navbar { 
+    width: 30%;
+    position: relative;
+
+}
+
+.left-navbar .chill-search {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+
+.chill-search a{
+    text-decoration: none;
+    color: #151B32
+}
+
+.left-navbar  input {
+    width: 100%;
+    border: 1px solid #BFC8E6;
+    /* margin: 0 0 0 5%; */
+    padding: 16px;
+
+}
+
+.header h2 {
+    width: 91px;
+    height: 40px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+
+
+    color: #151B32;
+}
+
+.right-navbar { 
+    width: 70%;
+
+}
+
+
+.right-navbar  .menu {
+    margin: auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.right-navbar  .menu a:hover {
+    background-color: #849FFF;
+    color: #FFFFFF;
+    border-radius: 5%;
+
+}
+
+.right-navbar  .menu a {
+    color: #151B32    ;
+    padding: 16px;
+    text-decoration: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* content */
+.content-main {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 0px 0px 5% 0px;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image-item {
+    width: 40%;
+}
+
+.image-item img {
+    width: 100%;
+}
+
+.detail-item {
+    width: 60%;
+}
+
+.detail-item h3 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #151B32;
+}
+
+.detail-item p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #151B32;
+}
+
+.more-detail-item {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.more-detail-item div {
+    font-family: 'Poppins';
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid;
+    color: #516FD5;
+    display: inline-block;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    align-items: center;
+    padding: 2px 8px;
+    width: 20%;
+}
